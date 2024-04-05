@@ -8,7 +8,7 @@ const bucketName = 'monotest-bucket';
 const objectParamsPresign = {
   Bucket: bucketName,
   Key: `music/audio_pl.m3u8`,
-  Expires: 60,
+  Expires: 3600,
 };
 
 const main = async () => {
